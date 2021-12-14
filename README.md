@@ -14,5 +14,6 @@ Langage: MySQL
 
 FileZilla: Envoi de fichiers sur le site distant
 
-Maj 1 --> Soucis sur la Connexion ( Connexion to upstream failed)
+Maj 1 --> Je suis passé par le service alwaysData pour héberger mon site via ce lien: http://wesport.alwaysdata.net/ mais malheuresement j'ai quelques soucis
+Soucis sur la Connexion ( Connexion to upstream failed)
 Problème de mise en place d'une API nodeJS
