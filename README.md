@@ -4,16 +4,19 @@ Application de rencontres entre sportif(ve)s pour rassemblement sportif( tournoi
 Outil prévu :
 Géolocalisation / Notification / Création de contenu par évenement
 Inscription/ Connexion / Profil / Filtre recherche rencontre
-Api Méteo
-Api CRUD pour création d'évenements sportifs
+Api CRUD pour création de groupe et d'évenements sportifs
 Appli mobile via Ionic --> Cross-platform native and web-app
 Back-end: NodeJS
-Front: VueJS via Ionic
-BDD: PhpMyAdmin
-Langage: MySQL
+Front: VueJS et Ionic
+Hebergement Back: Alwaysdata
+BDD: Phppgadmin via Alwaysdata
+Langage: postgres
 
-FileZilla: Envoi de fichiers sur le site distant
+Branch: Feature/test pour le code front
 
-Maj 1 --> Je suis passé par le service alwaysData pour héberger mon site via ce lien: http://wesport.alwaysdata.net/ mais malheuresement j'ai quelques soucis
-Soucis sur la Connexion ( Connexion to upstream failed)
-Problème de mise en place d'une API nodeJS
+Maquette (wireframes): https://www.figma.com/file/mI7sJR6gRQMwsjw0487K8F/Untitled?node-id=0%3A1
+
+Hebergement: AlwaysData pour héberger mon site (maj)
+
+
+
