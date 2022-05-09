@@ -12,7 +12,7 @@ Back-end: NodeJS et ExpressJS
 
 Front: VueJS et Ionic
 
-Hebergement Back: Alwaysdata
+Hebergement Back: Alwaysdata ( Serveur déployé mais non relié au front )
 
 BDD: Phppgadmin via Alwaysdata
 
@@ -23,6 +23,8 @@ Branch: Feature/test pour le code front
 Maquette (wireframes): https://www.figma.com/file/mI7sJR6gRQMwsjw0487K8F/Untitled?node-id=0%3A1
 
 Hebergement: AlwaysData pour héberger mon site (maj)
+
+Back: Création d'utilisateurs, connexion utilisateurs
 
 
 
