@@ -1,9 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';
-import firebase from 'firebase/app';
-import 'firebase/auth';
-import 'firebase/firestore';
 import { IonicVue } from '@ionic/vue';
 
 /* Core CSS required for Ionic components to work properly */
@@ -27,21 +24,6 @@ import './theme/variables.css';
 import './theme/core.css';
 import BaseLayout from './components/base/BaseLayout.vue'
 
-const firebaseConfig = {
-  apiKey: "AIzaSyD1ycwwdhBl6Ua45pJ3oZgAVR73WDZ-M4w",
-  authDomain: "wesport-dfdb5.firebaseapp.com",
-  projectId: "wesport-dfdb5",
-  storageBucket: "wesport-dfdb5.appspot.com",
-  messagingSenderId: "317633308491",
-  appId: "1:317633308491:web:424022b1bf9067f213eace",
-  measurementId: "G-54FLT3502Z"
-};
-
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
-export const auth = firebase.auth();
-export const db = firebase.firestore();
 
 const app = createApp(App)
   .use(IonicVue)
