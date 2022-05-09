@@ -22,7 +22,7 @@ export default{
       IonToolbar,
       IonTitle,
       IonContent,
-      IonBackButton
+      IonBackButton,
     }
 }
 </script>

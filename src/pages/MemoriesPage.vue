@@ -10,6 +10,22 @@
                 <ion-item router-link="/memories/#">Contact</ion-item>
             </ion-list>
     </ion-footer>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Basket</ion-card-title>
+        </ion-card-header>
+        <ion-description style="margin-left:50px">
+            "Fun garanti! Rejoignez-nous vite!"<br>Bon - Evenement 30/01 - 18-25
+        </ion-description>
+    </ion-card>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Foot</ion-card-title>
+        </ion-card-header>
+        <ion-description style="margin-left:50px">
+            "Fun garanti! Rejoignez vite!"<br>Moyen - Evenement 30/01 - 18-25
+        </ion-description>
+    </ion-card>
      </base-layout>
 </template>
 

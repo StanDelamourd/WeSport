@@ -1,0 +1,25 @@
+{
+    "user":[
+        {
+            "id": 1,
+            "username":"weman" ,
+            "email":"wesport@mail.com",
+            "password":"test1",
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "username":"weboy" ,
+            "email":"wesport@mail.com",
+            "password":"test2",
+            "role": "user"
+        },
+        {
+            "id": 3,
+            "username":"wegirl" ,
+            "email":"wesport@mail.com",
+            "password":"test3",
+            "role": "user"
+        }
+    ]
+}

@@ -2,13 +2,8 @@ import { createRouter, createWebHistory } from '@ionic/vue-router';
 const routes = [
   {
     path:'/',
-    redirect: '/landing'
+    component: () => import('../pages/Login.vue'),
   },
-  {
-    path:'/landing',
-    component: () => import('../pages/Landing.vue')
-  },
-  
   {
     path: '/memories',
     redirect: '/memoriesPage'
@@ -22,8 +17,7 @@ const routes = [
     component: () => import('../pages/MemoryDetails.vue')
   },
   ]
-
-
+  
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
