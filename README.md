@@ -5,11 +5,17 @@ Outil prévu :
 Géolocalisation / Notification / Création de contenu par évenement
 Inscription/ Connexion / Profil / Filtre recherche rencontre
 Api CRUD pour création de groupe et d'évenements sportifs
+
 Appli mobile via Ionic --> Cross-platform native and web-app
-Back-end: NodeJS
+
+Back-end: NodeJS et ExpressJS
+
 Front: VueJS et Ionic
+
 Hebergement Back: Alwaysdata
+
 BDD: Phppgadmin via Alwaysdata
+
 Langage: postgres
 
 Branch: Feature/test pour le code front
